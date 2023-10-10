@@ -1,0 +1,10 @@
+{
+  "db": {
+    "username": "root",
+    "password": "root",
+    "database": "jobtracker",
+    "host": "localhost",
+    "debug": true
+  }
+}
+

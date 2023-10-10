@@ -1,0 +1,54 @@
+{
+  "db": {
+    "username": "",
+    "password": "",
+    "database": "jobtracker",
+    "host": "",
+    "dialect": "mysql"
+  },
+  "health_check": {
+    "tests": {
+      "database": {
+        "connection": true,
+        "query": "SELECT id FROM campaign limit 1;"
+      }
+    }
+  },
+  "aws": {
+    "s3": {
+      "config": {
+        "region": "us-east-1"
+      },
+      "public_url": "",
+      "bucket": "",
+      "general": {
+        "path": ""
+      }
+    }
+  },
+  "compression": true,
+  "notifications_enabled": false,
+  "arion_api":
+  "okta": {
+    "client_id": "",
+    "domain": "",
+    "token": "",
+    "group_id": "",
+    "internal_domain": "",
+    "internal_group_id": "",
+    "internal_token": ""
+  },
+  "okta_token_check": false,
+  "influx": {
+    "db_config": {},
+    "enabled": false
+  },
+  "mailgun": {
+    "auth": {
+      "domain": "",
+      "api_key": ""
+    }
+  }
+}
+
+
